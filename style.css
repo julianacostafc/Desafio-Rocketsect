@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: #2c2b3d;
+  padding: 4rem;
+}
+
+.page {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto 26rem;
+}
+
+nav {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "JetBrains Mono", monospace;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+ul li a:hover {
+  font-weight: bolder;
+}
+
+.text {
+  text-align: center;
+}
+
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+h1>span {
+  color: #00bfa6;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+section>p {
+  color: #c2c2c2;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+section p span {
+  color: #00bfa6;
+  font-weight: bold;
+}
+
+.line {
+  width: 950px;
+  height: 0;
+
+  margin: 0 auto 8px;
+
+  border: 1px solid #00bfa6;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.footertext {
+  margin-top: 27px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  font-weight: bolder;
+}
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
